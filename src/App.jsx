@@ -13,19 +13,17 @@ import React from 'react'
 
 const App = () => {
   return (
-    <render>
-        <>
+          <div>
             <Header />
             <Nav />
             <About />
-            <Experience />
             <Services />
+            <Experience />
             <Portfolio />
             {/* <Testimonials /> */}
             <Contact />
             <Footer />
-        </>
-    </render>
+            </div>
   )
 }
 

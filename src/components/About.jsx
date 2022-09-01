@@ -21,17 +21,17 @@ const About = () => {
           <div className="about__cards">
             <article className='about__card'>
               <RiAwardFill className='about__icon' />
-              <h5>Experience</h5>
+              <h5>Professional</h5>
               <small>2 Years</small>
             </article>
             <article className='about__card'>
               <FaUsers className='about__icon' />
-              <h5>Clients</h5>
+              <h5>Adaptable</h5>
               <small>200+ World Wide</small>
             </article>
             <article className='about__card'>
               <IoLibrarySharp className='about__icon' />
-              <h5>Projects</h5>
+              <h5>Team Player</h5>
               <small>80+</small>
             </article>
           </div>
