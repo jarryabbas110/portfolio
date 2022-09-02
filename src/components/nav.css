@@ -2,11 +2,11 @@ nav {
     background: rgba(0, 0, 0, 0.3);
     width: max-content;
     display: block;
-    padding: 0.7rem 1.5rem;
+    padding: 0.5rem 1rem;
     position: fixed;
     left: 92%;
     transform: translateX(-50%);
-    bottom: 14rem;
+    bottom: 11rem;
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
@@ -50,5 +50,7 @@ nav a.active {
         backdrop-filter: blur(15px);
         flex-direction: row;
         }
+
+        
   
   }

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -18,11 +19,11 @@
     --color-light: rgba(255,255,255,0.6) ; */
 
 /* black and gray */
-    --color-bg: #272727 ;
-    --color-bg-variant: #373741 ;
-    --color-primary: #737373 ;
-    --color-primary-variant: rgba(198, 198, 198, 0.4) ;
-    --color-light: rgba(255,255,255,0.6) ;
+    --color-bg: #071a25 ;
+    --color-bg-variant: #0c4152 ;
+    --color-primary: #47aec2;
+    --color-primary-variant: #0e738a;
+    --color-light: #47aec2 ;
 
      /* --color-bg: #0C081C;
     --color-bg-variant: #271637 ;
@@ -90,7 +91,10 @@ h1 {
 }
 
 section {
-    margin-top: 8rem;
+    
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 section > h2, section > h5 {
@@ -162,5 +166,7 @@ img {
     section > h2 {
         margin-top: 2rem;
     }
+
+
 }
 
