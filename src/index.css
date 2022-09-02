@@ -11,11 +11,11 @@
 }
 
 :root {
-    /* --color-bg: #1f1f38 ;
+    --color-bg: #1f1f38 ;
     --color-bg-variant: #2c2c6c ;
     --color-primary: #4bd5ff ;
     --color-primary-variant: rgba(77,181,255,0.4) ;
-    --color-light: rgba(255,255,255,0.6) ; */
+    --color-light: rgba(255,255,255,0.6) ;
 
      /* --color-bg: #0C081C;
     --color-bg-variant: #271637 ;
@@ -24,11 +24,11 @@
     --color-light: #A5878F ;  */
 
 
-    --color-bg: #000000;
+    /* --color-bg: #000000;
     --color-bg-variant: #0D261E ;
     --color-primary: #26735B ;
     --color-primary-variant: #1A4C3c ;
-    --color-light: #319B79 ; 
+    --color-light: #319B79 ;  */
 /* 
     --color-bg: #04181f;
     --color-bg-variant: #256a67;
