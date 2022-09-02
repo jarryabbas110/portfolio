@@ -4,7 +4,8 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Contact from './components/Contact';
 import Experience from './components/Experience';
-import Portfolio from './components/Portfolio';
+// import Portfolio from './components/Portfolio';
+import Portfolio from './components/portfolio/Projects';
 import Services from './components/Services';
 import Testimonials from './components/Testimonials';
 

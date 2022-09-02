@@ -1,0 +1,151 @@
+/* ------------------- New Style Project Item ------------- */
+
+/* -------------------------Dialogue  ------------------------ */
+
+.dialogue_container {
+  width: var(--container-width-lg) !important;
+  /* margin: auto; */
+  /* padding: 2rem 2rem; */
+}
+.css-hyum1k-MuiToolbar-root {
+  padding: 0 15% !important;
+  font-size: large;
+  font-weight: 500;
+  position: fixed;
+  background-color: var(--color-bg-variant) !important;
+  color: white !important;
+}
+
+.dialogue_content {
+  padding: 0 14rem !important;
+}
+
+.dialogue_content h1 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.catagory {
+  margin-top: 1rem;
+  color: var(--color-primary);
+}
+
+/* -------------------------Portfolio Container ------------------------ */
+
+.portfolio__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.tabs_container {
+  display: block;
+  margin: auto;
+}
+.tabs .tab {
+  color: var(--color-white) !important;
+  transition: var(--transition);
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: var(--color-primary) !important;
+  font-weight: bolder !important;
+  font-size: medium !important;
+}
+
+.portfolio__item {
+  background-color: var(--color-bg-variant);
+  border-radius: 1.5rem;
+  padding: 1.3rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.portfolio__item:hover {
+  background: transparent;
+  border-color: var(--color-primary);
+}
+.portfolio__item-image {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.portfolio__item > h3 {
+  margin: 0.5rem 0 0.5rem;
+}
+
+.img_container {
+  height: 16rem;
+}
+
+.portfolio__cta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.loadmore__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ---------------------------TABS ----------------- */
+
+.css-1ujnqem-MuiTabs-root {
+  margin-bottom: 2.2rem;
+}
+
+/* ------------------Media Quries For Medium Screens----------------- */
+
+@media screen and (max-width: 1024px) {
+  .portfolio__container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .portfolio__item {
+    padding: 2rem;
+    width: 100%;
+  }
+  .portfolio__container article {
+    width: 100%;
+  }
+  .dialogue_container {
+    width: var(--container-width-md) !important;
+    /* margin: auto; */
+    padding: 2rem 0.8rem;
+  }
+  .dialogue_content {
+    padding: 0 5rem !important;
+  }
+}
+
+/* ------------------Media Quries For Small Screens----------------- */
+
+@media screen and (max-width: 600px) {
+  .portfolio__container {
+    grid-template-columns: 1fr;
+  }
+  .portfolio__item {
+    padding: 1rem;
+    width: 100%;
+  }
+  .dialogue_content {
+    padding: 0 2rem !important;
+  }
+  .css-13xfq8m-MuiTabPanel-root {
+    padding: 0 !important;
+  }
+  .css-1ujnqem-MuiTabs-root {
+    margin-bottom: 1.2rem;
+  }
+  .tabs {
+    overflow: scroll;
+  }
+
+  .dialogue_container {
+    width: var(--container-width-sm) !important;
+    /* margin: auto; */
+    padding: 2rem 0.8rem;
+  }
+}
