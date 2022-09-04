@@ -13,24 +13,24 @@ export const Checks = createContext(null);
 const Projects = () => {
   const [value, setValue] = useState('all');
   const [open, setOpen] = React.useState(false);
-  const [visible, setVisible] = useState(20);
-  const graphicsProjects = [
+  const [visible, setVisible] = useState(50);
+  const designProjects = [
     {
-      id: 3215,
+      id: 1,
       name: 'Sutjlej Grains ',
-      catogory: 'graphics',
+      catogory: 'design',
       demo_link: '#',
       behance_link:
-        'https://www.behance.net/gallery/125030079/Menu-Poster-for-Sutlej-Grains',
+        'https://www.behance.net/gallery/151869371/Blog-Interface',
       featured_img:
-        'https://mir-s3-cdn-cf.behance.net/projects/404/4bff2d125030079.Y3JvcCwyNTQ0LDE5ODksMCwxNzA.png',
+        'https://mir-s3-cdn-cf.behance.net/project_modules/1400/2169f8151869371.6313a7eacc5d8.jpg',
       project_image:
-        'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/336368125030079.611107cb832ec.jpg',
+        'https://mir-s3-cdn-cf.behance.net/project_modules/1400/93a914151869371.6313a7eacac88.jpg',
     },
     {
       id: 3212,
       name: 'Shoe Branding ',
-      catogory: 'graphics',
+      catogory: 'design',
       demo_link: '#',
       behance_link:
         'https://www.behance.net/gallery/125093873/Shoe-Branding-Poster',
@@ -42,7 +42,7 @@ const Projects = () => {
     {
       id: 321122,
       name: 'Food Tri fold Brochure ',
-      catogory: 'graphics',
+      catogory: 'design',
       demo_link: '#',
       behance_link:
         'https://www.behance.net/gallery/125030907/Brunch-Menu-Brochure',
@@ -65,7 +65,7 @@ const Projects = () => {
     {
       id: 233212,
       name: 'Real Estate Tri fold Brochure',
-      catogory: 'graphics',
+      catogory: 'design',
       demo_link: '#',
       behance_link:
         'https://www.behance.net/gallery/125095041/Real-Estate-Brochure',
@@ -163,7 +163,7 @@ const Projects = () => {
     {
       id: 3213541312,
       name: 'Sutjlej Grains ',
-      catogory: 'graphics',
+      catogory: 'design',
       demo_link: '#',
       behance_link:
         'https://www.behance.net/gallery/125030079/Menu-Poster-for-Sutlej-Grains',
@@ -175,7 +175,7 @@ const Projects = () => {
     {
       id: 32128786532,
       name: 'Shoe Branding ',
-      catogory: 'graphics',
+      catogory: 'design',
       demo_link: '#',
       behance_link:
         'https://www.behance.net/gallery/125093873/Shoe-Branding-Poster',
@@ -187,7 +187,7 @@ const Projects = () => {
     {
       id: 14533212,
       name: 'Food Tri fold Brochure ',
-      catogory: 'graphics',
+      catogory: 'design',
       demo_link: '#',
       behance_link:
         'https://www.behance.net/gallery/125030907/Brunch-Menu-Brochure',
@@ -199,7 +199,7 @@ const Projects = () => {
     {
       id: 3212185,
       name: 'Real Estate Tri fold Brochure',
-      catogory: 'graphics',
+      catogory: 'design',
       demo_link: '#',
       behance_link:
         'https://www.behance.net/gallery/125095041/Real-Estate-Brochure',
@@ -407,7 +407,7 @@ const Projects = () => {
                 </Tab>
                 <Tab className='tab' value='react' label='React' />
                 {/* <Tab className='tab' value='wordpress' label='WordPress' /> */}
-                <Tab className='tab' value='graphics' label='Graphics' />
+                <Tab className='tab' value='design' label='design' />
               </Tabs>
 
               <TabPanel value='all' className='portfolio__container'>
@@ -443,8 +443,8 @@ const Projects = () => {
                 {/* <Dialogue data={dialogue_item} /> */}
               </TabPanel>
 
-              <TabPanel value='graphics' className='portfolio__container'>
-                {graphicsProjects.map((item, index) => {
+              <TabPanel value='design' className='portfolio__container'>
+                {designProjects.map((item, index) => {
                   return (
                     <ProjectItem
                       id={index}

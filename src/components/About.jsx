@@ -36,7 +36,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            something something
+          An aspiring individual with an objective to work in a professional environment, gain experience, and increase my skillset furthest. Familiar with numerous development and design paradigms and technologies.
           </p>
           <a href="#contact" className='btn btn-primary'>Get in Touch</a>
         </div>

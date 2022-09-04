@@ -38,6 +38,8 @@
 .experience__details-icons{
     margin-top: 6px;
     color: var(--color-primary);
+    font-size: 25px;
+    
 }
 
 /*==================Medium devices==============*/
@@ -68,10 +70,13 @@
 
     .experience__container > div {
         width: 100%;
-        padding: 2rem 1rem;
-       
-        
+        padding: 0.5rem;
 
     }
+
+    .experience__details-icons{
+        font-size: 15px;
+        
+    } 
 
 }
